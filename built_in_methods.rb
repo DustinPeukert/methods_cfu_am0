@@ -69,7 +69,19 @@ puts country.downcase
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+# 1.) The .zero method is called on the guests variable, which is storing the integer 0
+# The .zero method does not pass any arguments, and is used to check if an integer is 0
+# If the integer is 0, then the return value will be the boolean value, otherwise it will return false
+# Because 0 == 0, our return value is true
+guests = 0
+cancel_event = guests.zero?
+puts cancel_event
 
+#2.) The .size method is called on the bees_quantity variable, which is storing the integer 94687
+# The .size method does not pass any arguments, its purpose it to output the number of bites an integer take up
+# The return value is 8
+bees_quantity = 946847
+puts bees_quantity.size
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
