@@ -49,7 +49,19 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+# 1.) The .concat method is called on the color variable, which stores the string object "Gold"
+# The .concat method also passes the animal variable, which stores the string object "Fish", as a parameter
+# The .concat method appends the string stored in animal to the end of the string stored in color.
+# The return value is GoldFish
+color = "Gold"
+animal = "Fish"
+puts color.concat(animal)
 
+# 2.) The .downcase method is called on the country variable, which stores the string object "France"
+# The .downcase method does not pass any arguments, and its purpose is to return the string in all lowercase characters
+# The return value is france
+country = "France"
+puts country.downcase
 
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.
