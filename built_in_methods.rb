@@ -88,3 +88,20 @@ puts bees_quantity.size
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+#1.) The .first method is called on the names array, which is storing 4 string objects
+# The .first method passes an argument containing the integer 2
+# The argument tells .first to store the first 2 objects of the names array and puts exports them to the terminal
+# Return value is:
+# John
+# Patty
+names = ["John", "Patty", "Simon", "Beth"]
+puts names.first(2)
+
+#2.) The .append method is called on the locations array, which is storing 3 string objects
+# The .append method passes one argument, which is the string object "bank"
+# The .append method adds the element contained within the argument to the end of the array
+# puts exports each element of the array to the Terminal
+# The return value is "park restaurant home bank" with each word on a new line
+locations = ["park", "restaurant", "home"]
+puts locations.append("bank")
